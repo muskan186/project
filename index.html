@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <h1>Muskan's Calculator</h1>  
+            <nav>
+                <ul>
+                    <li><a href="#calculator-section">Calculator</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="calculator-container" id="calculator-section">
+            <div class="calculator">
+                <input type="text" placeholder="0" id="inputBox">
+                <div>
+                    <button class="operator">AC</button>
+                    <button class="operator">DEL</button>
+                    <button class="operator">%</button>
+                    <button class="operator">/</button>
+                </div>
+                <div>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button class="operator">*</button>
+                </div>
+                <div>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button class="operator">-</button>
+                </div>
+                <div>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button class="operator">+</button>
+                </div>
+                <div>
+                    <button>00</button>
+                    <button>0</button>
+                    <button>.</button>
+                    <button class="equalBtn">=</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="info-section about-section" id="about-section">
+            <h2>About This Calculator</h2>
+            <p>This is a simple yet functional calculator designed to perform basic arithmetic operations. It features a
+                clean interface and intuitive controls, making it easy for anyone to use for everyday calculations.</p>
+            <p>Developed with a focus on user experience and a sleek design, this tool aims to provide a reliable
+                solution for quick computations.</p>
+        </section>
+
+        <section class="info-section contact-section" id="contact-section">
+            <h2>Contact Muskan</h2>
+            <p>Have a question or feedback? Send a message using the form below!</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn equalBtn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Muskan's Calculator. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
